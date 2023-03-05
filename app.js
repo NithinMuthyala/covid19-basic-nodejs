@@ -42,7 +42,7 @@ app.get("/states/", async (request, response) => {
   const converted = stateslist.map((eachobj) => {
     return convertsnakecasetocamel(eachobj);
   });
-  console.log(converted);
+  //console.log(converted);
   response.send(converted);
 });
 
