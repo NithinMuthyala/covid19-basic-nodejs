@@ -39,4 +39,4 @@ Content-type : application/json
 GET http://localhost:3020/states/8/stats/
 
 ###
-GET http://localhost:3020/districts/12/details/
+GET http://localhost:3020/districts/8/details/
